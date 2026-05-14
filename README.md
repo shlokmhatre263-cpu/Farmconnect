@@ -12,6 +12,7 @@ multilingual support in English, Hindi, and Marathi — all in one single app.
 > Add your app screenshots here
 
 | Splash & Login | 
+|---|---|---|
 | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/93c034a3-ae5d-40e0-a0bc-a48f05105e9a" />
  |  Dashboard | 
  | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/b60df685-1e5f-4980-bea2-7df8e1ed868d" />
@@ -20,6 +21,7 @@ multilingual support in English, Hindi, and Marathi — all in one single app.
  |
 
 | Disease Detection | 
+|---|---|---|
 | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/e674c6a3-f873-481a-891c-f9633b6ddf8b" />
 | Community |
  | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/04c84dfc-341f-4e52-87b4-82b2c037cc9a" />
