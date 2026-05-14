@@ -11,13 +11,10 @@ multilingual support in English, Hindi, and Marathi — all in one single app.
 
 > Add your app screenshots here
 
-| Splash & Login | 
+| Splash & Login | Dashboard | Weather |
 |---|---|---|
-| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/93c034a3-ae5d-40e0-a0bc-a48f05105e9a" /> |
-|  Dashboard | 
-| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/b60df685-1e5f-4980-bea2-7df8e1ed868d" /> |
-|  Weather |
-| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/3acec690-67ef-4288-8633-ad171faaa2af" /> |
+| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/93c034a3-ae5d-40e0-a0bc-a48f05105e9a" /> | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/b60df685-1e5f-4980-bea2-7df8e1ed868d" /> |  <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/3acec690-67ef-4288-8633-ad171faaa2af" /> |
+
 
 | Disease Detection | 
 |---|---|---|
