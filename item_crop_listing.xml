@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardListingItem"
+    android:layout_marginStart="12dp" android:layout_marginEnd="12dp"
+    android:layout_marginTop="8dp" android:layout_marginBottom="4dp"
+    app:cardCornerRadius="18dp" app:cardElevation="6dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvCropName" android:textSize="17sp"
+                android:textStyle="bold" android:textColor="#1B5E20"
+                android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/tvCropType" android:textSize="11sp"
+                android:textColor="#FFFFFF" android:background="#4CAF50"
+                android:paddingStart="8dp" android:paddingEnd="8dp"
+                android:paddingTop="3dp" android:paddingBottom="3dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+            android:background="#E0E0E0" android:layout_width="match_parent" android:layout_height="1dp"/>
+
+        <TextView android:id="@+id/tvPrice" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#E65100" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvQuantity" android:textSize="13sp" android:textColor="#555555"
+            android:layout_marginTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvSeller" android:textSize="12sp" android:textColor="#777777"
+            android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvLocation" android:textSize="12sp" android:textColor="#777777"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnAction" android:text="Buy Now"
+            android:textColor="#FFFFFF" android:textStyle="bold"
+            android:layout_marginTop="12dp" android:padding="10dp"
+            android:background="@drawable/green_button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,217 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">FarmConnect</string>
+    <string name="default_web_client_id">83821384941-l8giji5eelfbuirb5lvnf0eq5pdru629.apps.googleusercontent.com</string>
+
+    <!-- Common -->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_farmer">Welcome, Farmer</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="marathi">Marathi</string>
+    <string name="hindi">Hindi</string>
+
+    <!-- Dashboard -->
+    <string name="weather">Weather</string>
+    <string name="crop_disease">Crop Disease</string>
+    <string name="community">Community</string>
+    <string name="schemes">Schemes</string>
+    <string name="profile">Profile</string>
+    <string name="marketplace">Marketplace</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Smart Farming Made Easy</string>
+
+    <!-- Login / Register -->
+    <string name="fill_all_fields">Fill all fields</string>
+    <string name="name_required">Name required</string>
+    <string name="name_hint">Full Name</string>
+    <string name="email_required">Email required</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="password_length">Password must be 6+ characters</string>
+    <string name="login">Login</string>
+    <string name="register">Create Account</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="new_user">New user? Create account</string>
+    <string name="logout">Logout</string>
+
+    <!-- Schemes -->
+    <string name="schemes_title">Government Schemes</string>
+    <string name="pm_kisan">PM Kisan Samman Nidhi</string>
+    <string name="pm_kisan_desc">₹6000 per year financial support to farmers.</string>
+    <string name="eligibility_pm_kisan">• Must be Indian citizen\n• Small or marginal farmer\n• Own cultivable land</string>
+    <string name="documents_pm_kisan">• Aadhaar Card\n• Bank Passbook\n• Land Records\n• Mobile Number</string>
+    <string name="how_to_apply_pm_kisan">1. Visit pmkisan.gov.in\n2. Click New Farmer Registration\n3. Enter Aadhaar &amp; bank details\n4. Submit form online</string>
+
+    <string name="pm_fasal_bima">PM Fasal Bima Yojana</string>
+    <string name="pm_fasal_bima_desc">Crop insurance against natural disasters.</string>
+    <string name="eligibility_pm_fasal">• Registered farmer\n• Crop must be notified under scheme\n• Must insure before crop season</string>
+    <string name="documents_pm_fasal">• Aadhaar Card\n• Bank Account Details\n• Land Ownership Proof\n• Crop Details</string>
+    <string name="how_to_apply_pm_fasal">1. Visit pmfby.gov.in\n2. Select your state\n3. Fill crop details\n4. Pay premium &amp; submit</string>
+
+    <string name="pm_sinchai">PM Krishi Sinchai Yojana</string>
+    <string name="pm_sinchai_desc">Support for irrigation systems and water management.</string>
+    <string name="eligibility_sinchai">• Farmer with irrigation requirement\n• Own or leased agricultural land</string>
+    <string name="documents_sinchai">• Land Records\n• Bank Details\n• Aadhaar Card</string>
+    <string name="how_to_apply_sinchai">1. Visit pmksy.gov.in\n2. Select your scheme component\n3. Apply through district office\n4. Submit required documents</string>
+
+    <string name="kisan_credit_card">Kisan Credit Card</string>
+    <string name="kisan_credit_card_desc">Easy loan facility for farming needs.</string>
+    <string name="eligibility_kcc">• Farmer with cultivable land\n• Individual or joint borrower</string>
+    <string name="documents_kcc">• Aadhaar Card\n• Land Documents\n• Bank Account\n• Passport Photo</string>
+    <string name="how_to_apply_kcc">1. Visit nearest bank branch\n2. Fill KCC application form\n3. Submit land &amp; ID documents\n4. Bank will process the card</string>
+
+    <string name="how_to_apply">How to Apply</string>
+    <string name="eligibility">Eligibility</string>
+    <string name="documents_required">Documents Required</string>
+    <string name="apply_online">Apply Online</string>
+    <string name="visit_agri_office">Visit nearest agriculture office.</string>
+    <string name="carry_id_proof">Carry ID proof and land documents.</string>
+    <string name="contact_agri_dept">Contact agriculture department.</string>
+
+    <!-- Community -->
+    <string name="community_title">Farmer Community</string>
+    <string name="write_post_hint">Share your farming problem...</string>
+    <string name="post">Post</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="no_posts">No posts yet</string>
+    <string name="posted_on">Posted on</string>
+    <string name="likes">👍 Like</string>
+    <string name="comments">💬 Comments</string>
+    <string name="like_count">👍 Like (%d)</string>
+    <string name="comment_count">💬 Comments (%d)</string>
+    <string name="write_comment">💬 Write a comment...</string>
+    <string name="submit_comment">Send</string>
+    <string name="post_success">Post uploaded successfully</string>
+    <string name="post_error">Failed to post. Try again.</string>
+    <string name="post_deleted">Post deleted</string>
+    <string name="write_something_first">Write something first</string>
+    <string name="image_error">Image conversion failed</string>
+
+    <!-- Disease Activity UI -->
+    <string name="choose_image_source">Choose Image Source</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="image_selection_failed">Image selection failed</string>
+    <string name="model_load_failed">Model load failed: </string>
+    <string name="label_load_failed">Label load failed</string>
+    <string name="model_not_loaded">Model not loaded</string>
+    <string name="prediction_label">Prediction:</string>
+    <string name="confidence_label2">Confidence:</string>
+    <string name="low_confidence_message">⚠ Please upload clear crop leaf image.\n\nLow confidence (%s%%)</string>
+
+    <!-- Disease Descriptions — English -->
+    <string name="choose_image">Choose Image Source</string>
+    <string name="prediction_hint">Prediction will appear here</string>
+    <string name="disease_bellpepper_bacterial_spot">Bell Pepper - Bacterial Spot:\nDark water-soaked spots on leaves. Use copper fungicide and avoid overhead watering.</string>
+    <string name="disease_bellpepper_healthy">Bell Pepper - Healthy:\nPlant is healthy. Maintain proper irrigation and nutrition.</string>
+    <string name="disease_corn_blight">Corn - Blight:\nGray lesions on leaves. Use resistant hybrids and fungicide.</string>
+    <string name="disease_corn_common_rust">Corn - Common Rust:\nOrange pustules on leaves. Use resistant varieties.</string>
+    <string name="disease_corn_gray_leaf_spot">Corn - Gray Leaf Spot:\nRectangular gray lesions. Improve airflow.</string>
+    <string name="disease_corn_healthy">Corn - Healthy:\nCrop is healthy and disease-free.</string>
+    <string name="disease_cotton_diseased_leaf">Cotton - Diseased Leaf:\nLeaf infection detected. Remove infected leaves.</string>
+    <string name="disease_cotton_diseased_plant">Cotton - Diseased Plant:\nWhole plant infected. Apply proper pesticide treatment.</string>
+    <string name="disease_cotton_fresh_leaf">Cotton - Fresh Leaf:\nHealthy leaf stage.</string>
+    <string name="disease_cotton_fresh_plant">Cotton - Fresh Plant:\nHealthy growing plant.</string>
+    <string name="disease_potato_early_blight">Potato - Early Blight:\nDark concentric rings on leaves. Use fungicide spray.</string>
+    <string name="disease_potato_healthy">Potato - Healthy:\nPlant is healthy.</string>
+    <string name="disease_potato_late_blight">Potato - Late Blight:\nWater-soaked lesions. Immediate fungicide treatment needed.</string>
+    <string name="disease_tomato_bacterial_spot">Tomato - Bacterial Spot:\nSmall dark leaf spots. Avoid leaf wetness.</string>
+    <string name="disease_tomato_early_blight">Tomato - Early Blight:\nTarget-like leaf spots. Improve air circulation.</string>
+    <string name="disease_tomato_healthy">Tomato - Healthy:\nPlant is disease-free.</string>
+    <string name="disease_tomato_late_blight">Tomato - Late Blight:\nSerious fungal infection. Apply fungicide immediately.</string>
+    <string name="disease_tomato_target_spot">Tomato - Target Spot:\nCircular brown spots. Remove infected leaves.</string>
+    <string name="disease_wheat_blackpoint">Wheat - Black Point:\nDark discoloration on grains. Use certified seeds.</string>
+    <string name="disease_wheat_fusarium_foot_rot">Wheat - Fusarium Foot Rot:\nStem base rot. Improve drainage.</string>
+    <string name="disease_wheat_healthy_leaf">Wheat - Healthy Leaf:\nCrop is healthy.</string>
+    <string name="disease_wheat_leaf_blight">Wheat - Leaf Blight:\nBrown lesions on leaves. Apply fungicide.</string>
+    <string name="disease_wheat_blast">Wheat - Wheat Blast:\nSevere fungal disease. Use resistant varieties.</string>
+    <string name="disease_default">Disease detected. Follow agricultural expert guidance.</string>
+
+    <!-- Weather -->
+    <string name="weather_title">🌾 Farming Advisory</string>
+    <string name="loading_weather">Fetching weather data...</string>
+    <string name="weather_error">Unable to fetch weather data</string>
+    <string name="gps_turn_on">Turn ON GPS and try again</string>
+    <string name="location_denied">Location permission denied</string>
+    <string name="advice_very_hot">High temperature. Avoid midday irrigation. Protect crops from heat stress.</string>
+    <string name="advice_warm">Good day for farming. Ideal for irrigation and spraying.</string>
+    <string name="advice_cool">Cool weather. Monitor crops for fungal diseases.</string>
+    <string name="advice_cold">Low temperature. Protect crops from cold damage.</string>
+
+    <!-- Marketplace Tabs -->
+    <string name="tab_browse">Browse</string>
+    <string name="tab_my_listings">My Listings</string>
+    <string name="tab_my_orders">My Orders</string>
+
+    <!-- Marketplace Crop Filter -->
+    <string name="crop_filter_all">All Types</string>
+    <string name="crop_filter_wheat">Wheat</string>
+    <string name="crop_filter_rice">Rice</string>
+    <string name="crop_filter_vegetables">Vegetables</string>
+    <string name="crop_filter_fruits">Fruits</string>
+    <string name="crop_filter_pulses">Pulses</string>
+    <string name="crop_filter_cotton">Cotton</string>
+    <string name="crop_filter_sugarcane">Sugarcane</string>
+    <string name="crop_filter_other">Other</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">🌾 Crop Marketplace</string>
+    <string name="no_listings">No listings found.\nBe the first to sell!</string>
+    <string name="sell_crop">Sell Crop</string>
+    <string name="sell_crop_title">🌾 Post Crop for Sale</string>
+    <string name="crop_name_label">Crop Name *</string>
+    <string name="crop_name_hint">e.g. Basmati Rice</string>
+    <string name="crop_type_label">Crop Type *</string>
+    <string name="price_per_kg">Price per KG (₹) *</string>
+    <string name="price_hint">e.g. 45.50</string>
+    <string name="quantity_label">Quantity Available (KG) *</string>
+    <string name="quantity_hint">e.g. 500</string>
+    <string name="location_label">Your Location *</string>
+    <string name="location_hint">e.g. Nashik, Maharashtra</string>
+    <string name="description_label">Description (optional)</string>
+    <string name="description_hint">Quality, harvest date, grade, etc.</string>
+    <string name="post_listing">Post Listing</string>
+    <string name="buy_crop_title">🛒 Buy Crop</string>
+    <string name="qty_to_buy">Quantity to Buy (KG) *</string>
+    <string name="enter_kg">Enter KG</string>
+    <string name="total_default">Total:  ₹ 0.00</string>
+    <string name="delivery_address">Delivery Address *</string>
+    <string name="delivery_address_hint">Full delivery address</string>
+    <string name="select_payment">Select Payment Method *</string>
+    <string name="pay_option_upi">📲  UPI  (GPay / PhonePe / Paytm)</string>
+    <string name="pay_option_card">💳  Credit / Debit Card</string>
+    <string name="pay_option_cod">💵  Cash on Delivery</string>
+    <string name="pay_option_wallet">👜  FarmWallet</string>
+    <string name="proceed_payment">Proceed to Payment →</string>
+    <string name="payment_title">💳 Payment</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="enter_upi_pin">Enter UPI PIN</string>
+    <string name="upi_pin_hint">Enter 4 or 6 digit PIN</string>
+    <string name="qr_placeholder">[ QR Code ]</string>
+    <string name="pay_upi">Pay via UPI</string>
+    <string name="card_number">Card Number *</string>
+    <string name="card_expiry">Expiry *</string>
+    <string name="card_cvv">CVV *</string>
+    <string name="card_holder_name">Card Holder Name *</string>
+    <string name="card_name_hint">Name as on card</string>
+    <string name="pay_card">Pay via Card</string>
+    <string name="cod_title">🚚 Cash on Delivery</string>
+    <string name="cod_info">• Cash will be collected at delivery.\n• Please keep exact change ready.\n• Order confirmed immediately.</string>
+    <string name="confirm_cod">Confirm Order (COD)</string>
+    <string name="farmwallet_title">👜 FarmWallet</string>
+    <string name="pay_wallet">Pay via FarmWallet</string>
+    <string name="processing_payment">Processing payment...</string>
+    <string name="order_placed">Order Placed Successfully!</string>
+    <string name="view_my_orders">View My Orders</string>
+    <string name="my_orders_title">📦 My Orders</string>
+    <string name="no_orders_yet">You have not placed any orders yet.</string>
+    <string name="delete_listing">Delete Listing</string>
+    <string name="buy_now">Buy Now</string>
+
+</resources>

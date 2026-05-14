@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EAF4EA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:padding="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:text="@string/sell_crop_title" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#2E7D32"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/crop_name_label" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etCropName" android:hint="@string/crop_name_hint"
+            android:inputType="textCapSentences" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/crop_type_label" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spinnerCropType" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/price_per_kg" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etPricePerKg" android:hint="@string/price_hint"
+            android:inputType="numberDecimal" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/quantity_label" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etQuantityKg" android:hint="@string/quantity_hint"
+            android:inputType="numberDecimal" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/location_label" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etLocation" android:hint="@string/location_hint"
+            android:inputType="textCapSentences" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="14dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/description_label" android:textColor="#2E7D32"
+            android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDescription" android:hint="@string/description_hint"
+            android:inputType="textMultiLine" android:minLines="3" android:gravity="top|start"
+            android:background="@drawable/edit_bg" android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <ProgressBar android:id="@+id/progressSell" android:visibility="gone"
+            android:layout_gravity="center" android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnPostListing" android:text="@string/post_listing"
+            android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"
+            android:padding="14dp" android:background="@drawable/green_button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

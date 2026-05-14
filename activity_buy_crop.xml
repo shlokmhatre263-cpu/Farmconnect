@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EAF4EA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:padding="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:text="@string/buy_crop_title" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#2E7D32"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView app:cardCornerRadius="16dp" app:cardElevation="6dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="16dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tvBuyCropName" android:textSize="18sp"
+                    android:textStyle="bold" android:textColor="#1B5E20"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tvBuySellerInfo" android:textSize="13sp"
+                    android:textColor="#555555" android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tvBuyPricePerKg" android:textSize="17sp"
+                    android:textStyle="bold" android:textColor="#E65100"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tvBuyAvailable" android:textSize="13sp"
+                    android:textColor="#4CAF50" android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView android:text="@string/qty_to_buy" android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etBuyQuantity" android:hint="@string/enter_kg"
+            android:inputType="numberDecimal" android:background="@drawable/edit_bg"
+            android:layout_marginTop="4dp" android:layout_marginBottom="10dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvBuyTotal" android:text="@string/total_default"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="#2E7D32"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/delivery_address" android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDeliveryAddress" android:hint="@string/delivery_address_hint"
+            android:inputType="textMultiLine" android:minLines="2" android:gravity="top|start"
+            android:background="@drawable/edit_bg" android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="@string/select_payment" android:textSize="16sp"
+            android:textStyle="bold" android:textColor="#2E7D32"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <RadioGroup android:id="@+id/rgPaymentMethod" android:layout_marginBottom="20dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/rbUPI"
+                android:text="@string/pay_option_upi"
+                android:textColor="#333333" android:padding="10dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <RadioButton android:id="@+id/rbCard"
+                android:text="@string/pay_option_card"
+                android:textColor="#333333" android:padding="10dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <RadioButton android:id="@+id/rbCOD"
+                android:text="@string/pay_option_cod"
+                android:textColor="#333333" android:padding="10dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <RadioButton android:id="@+id/rbWallet"
+                android:text="@string/pay_option_wallet"
+                android:textColor="#333333" android:padding="10dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+        <Button android:id="@+id/btnProceedPayment"
+            android:text="@string/proceed_payment"
+            android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"
+            android:padding="14dp" android:background="@drawable/green_button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
