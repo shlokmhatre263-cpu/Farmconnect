@@ -13,11 +13,17 @@ multilingual support in English, Hindi, and Marathi — all in one single app.
 
 | Splash & Login | Dashboard | Weather |
 |---|---|---|
-| ![](#) | ![](#) | ![](#) |
+| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/93c034a3-ae5d-40e0-a0bc-a48f05105e9a" />
+ | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/b60df685-1e5f-4980-bea2-7df8e1ed868d" />
+ | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/3acec690-67ef-4288-8633-ad171faaa2af" />
+ |
 
 | Disease Detection | Community | Marketplace |
 |---|---|---|
-| ![](#) | ![](#) | ![](#) |
+| <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/e674c6a3-f873-481a-891c-f9633b6ddf8b" />
+ | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/04c84dfc-341f-4e52-87b4-82b2c037cc9a" />
+ | <img width="337" height="749" alt="image" src="https://github.com/user-attachments/assets/21dbeb4f-8801-4277-bdc4-f270a1c3e6b4" />
+ |
 
 ---
 
